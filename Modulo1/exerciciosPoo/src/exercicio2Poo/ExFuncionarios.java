@@ -1,19 +1,19 @@
-package exercicio1Poo;
+package exercicio2Poo;
 
-public class ExClientes {
+public class ExFuncionarios {
 
 	private String nome;
 	private int idade;
 	private char sexo;
-	private boolean compraFrenquente;
+	private String cpf;
 	private float altura;
 
-	public ExClientes(String nome, int idade, char sexo, boolean compraFrenquente, float altura) {
+	public ExFuncionarios(String nome, int idade, char sexo, String cpf, float altura) {
 		super();
 		this.nome = nome;
 		this.idade = idade;
 		this.sexo = sexo;
-		this.compraFrenquente = compraFrenquente;
+		this.cpf = cpf;
 		this.altura = altura;
 	}
 
@@ -41,12 +41,12 @@ public class ExClientes {
 		this.sexo = sexo;
 	}
 
-	public boolean isCompraFrenquente() {
-		return compraFrenquente;
+	public String getCpf() {
+		return cpf;
 	}
 
-	public void setCompraFrenquente(boolean compraFrenquente) {
-		this.compraFrenquente = compraFrenquente;
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
 
 	public float getAltura() {
