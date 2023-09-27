@@ -1,0 +1,192 @@
+#name {
+    font-size: 40px;
+}
+
+.dflex {
+    display: flex;
+}
+
+.paddingL-20 {
+    padding: 0 20px;
+}
+
+.sofiaSans {
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 25px;
+    color: #eef8bb;
+}
+
+.dosis {
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    color: #76c8cd;
+}
+
+.handlee {
+    font-family: 'Handlee', cursive;
+    color: #eef8bb;
+}
+
+.spacing {
+    padding-top: 150px;
+    padding-left: 7%;
+}
+
+.iconText {
+    display: flex;
+}
+
+.icons svg {
+    width: 50px;
+    height: 50px;
+}
+
+.text {
+    margin-top: -15px;
+}
+
+.relative {
+    position: relative;
+}
+
+.circleConfig {
+    position: absolute;
+    border: 1px dashed #BCCB6E;
+    border-radius: 50%;
+}
+
+.circle1 {
+    right: -500px;
+    width: 1600px;
+    height: 1600px;
+}
+
+.circle2 {
+    right: -450px;
+    top: 150px;
+    width: 1300px;
+    height: 1300px;
+}
+
+.circle3 {
+    right: -400px;
+    top: 300px;
+    width: 1050px;
+    height: 1050px;
+}
+
+.circle4 {
+    right: -350px;
+    top: 400px;
+    width: 800px;
+    height: 800px;
+}
+
+.planet1 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    right: 1050px;
+    bottom: 0px;
+    border-radius: 50%;
+}
+
+.planet2 {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    right: 200px;
+    bottom: 25px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.planet3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 925px;
+    bottom: 200px;
+    border-radius: 50%;
+}
+
+.planet4 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    right: -55px;
+    bottom: 300px;
+    border-radius: 50%;
+}
+
+.fill {
+
+    border: 1px solid #8ADADF;
+    background-color: #0C5357;
+
+}
+
+.orbit {
+    border: none;
+}
+
+.animationOrbit1 {
+    animation: rotate 20s linear infinite;
+
+}
+
+.animationOrbit2 {
+    animation: rotate 10s linear infinite;
+
+}
+
+.animationOrbit3 {
+    animation: rotate 14s linear infinite;
+
+}
+
+.animationOrbit4 {
+    animation: rotate 8s linear infinite;
+
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+main .spacing p {
+    line-height: 10px;
+}
+
+body {
+    background-color: #0c5357;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header section {
+    justify-content: space-between;
+    width: 70%;
+    border-bottom: 1px solid #227a80;
+}
+
+header section a {
+    text-decoration: none;
+}
+
+main h1 {
+    font-weight: 500;
+}
