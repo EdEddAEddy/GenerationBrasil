@@ -166,7 +166,7 @@ main .spacing p {
 
 body {
     background-color: #0c5357;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 
